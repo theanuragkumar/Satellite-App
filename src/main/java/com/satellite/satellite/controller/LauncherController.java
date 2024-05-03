@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/launchers")
+@CrossOrigin()
 public class LauncherController {
     @Autowired
     private LauncherService launcherService;
