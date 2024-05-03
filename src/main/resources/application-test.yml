@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://anurag:Hearts123@cluster0.7nl7p.mongodb.net/TEST1
+      uri: mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.7nl7p.mongodb.net/TEST1
 server:
   port: 8082
