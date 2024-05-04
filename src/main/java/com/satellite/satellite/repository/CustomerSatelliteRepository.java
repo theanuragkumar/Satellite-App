@@ -2,7 +2,7 @@ package com.satellite.satellite.repository;
 
 import com.satellite.satellite.model.CustomerSatellite;
 
-import jakarta.persistence.Id;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -3,19 +3,17 @@ package com.satellite.satellite.service;
 import com.satellite.satellite.model.APIResponse;
 import com.satellite.satellite.model.CustomerSatellite;
 import com.satellite.satellite.model.CustomerSatelliteResponse;
-import com.satellite.satellite.model.Launcher;
+
 import com.satellite.satellite.repository.CustomerSatelliteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.domain.Specification;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.data.mongodb.core.MongoTemplate;
 
-import java.util.Date;
+
+
 import java.util.List;
 import java.util.Optional;
 
